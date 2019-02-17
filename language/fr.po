@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-07 14:36-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Laurent Thomas, 2019\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Module.php:130
+msgid ""
+"If checked, the properties selected below will be linked on the admin side, "
+"overriding all site-specific settings. Each site's own settings will be "
+"reflected on the public side. Otherwise, the admin side will reflect the "
+"aggregated settings for all sites; anything selected to be a link in any "
+"site will be a link on the admin side."
+msgstr "Activée, cette option permet d'appliquer la configuration ci-dessous "
+"sur l'interface Admin, contournant toute configuration spécifique aux sites. "
+"Chaque configuration de site restera appliquée sur l'interface publique. "
+"Si l'option est désactivée, l'interface Admin aggrègera toutes les "
+"configurations de sites : tout ce qui sera sélectionné pour un site sera visible"
+" sur l'interface admin."
+
+#: Module.php:132
+msgid "Choose properties from the sidebar to be searchable on the admin side."
+msgstr "Choisissez dans la colonne de droite les propriétés qui doivent être "
+"navigables dans l'interface Admin."
+
+#: Module.php:137
+msgid "Select properties to be searchable"
+msgstr "Sélectionner les propriétés navigables"
+
+#: Module.php:232
+#, php-format
+msgid "See all %s with this value"
+msgstr "Voir tous les %s avec cette valeur"
+
+#: view/metadata-browse/admin/index/index.phtml:8
+msgid "Metadata Browse"
+msgstr "Navigation dans les Métadonnées"
+
+#: view/metadata-browse/admin/index/index.phtml:17
+msgid "Choose properties from the sidebar to be searchable"
+msgstr "Choisissez dans la colonne de droite les propriétés qui doivent "
+"être navigables"
+
+#: view/metadata-browse/property-template.phtml:15
+msgid "Property to be removed"
+msgstr "Propriété à retirer"
+
+#: src/Form/ConfigForm.php:17
+msgid "Use global configuration on admin side"
+msgstr "Configuration spécifique à l'interface Admin"
